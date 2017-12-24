@@ -1,0 +1,72 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	To keep the code simple, a partial MVC was implemented.
+	
+	Model
+	The Model captures enough information to re-draw the sketch of
+	the user.
+	
+	View+Controller
+	There is a View class as well as a few, what we call, view components.
+	The View class capturing the JFrame as well
+	as containing all of its components.
+	View components are meant to be contained in the main View.
+	Examples of view components are PaintPanel and ShapeChooserPanel.
+	
+	The View class, and view components all implements their own controller.
+	For example, the PaintPanel listens to its own MouseEvents.
+	This is instead of separating out the Controller from the View. This choice
+	was made to simplify the code, yet still keep it modular and clear.
+	
+	Each view component can see the containing View as well as the Model
+	as appropriate. This means that each view component can speak to the
+	other view components. An example of this is when the ShapeChooserPanel
+	buttons are clicked, resulting in a mode change in the PaintPanel.
+	
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example, 
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code. 
+		
+	Strategy: The Factory class uses strategies (which implement ShapeManipulatorStrategy) to build instances of  
+			  Shape objects and add them to the model. For more see BUG 2.4 in product backlog. NOTE: the strategies
+			  don't PaintPanel repaint directly, but when they add the shape to the model, the model notifies observers,
+			  which calls repaint, since PaintPanel observes the model and it's update method calls repaint.
+	Command: Command is implemented by having a single ArrayList of all the shapes (including Squiggles) in the model.
+				This improves the code because if all the shapes are stored in one place, the ArrayList is basically
+				a list of all the commands that have been made. This allows for functionality like undo, save, etc. to
+				be implemented easily in the future. On top of this, it helps for the Feedback User Stories because every time 
+				the mouse is dragged, the last shape in the ArrayList is deleted, then the latest shape is added. This allows
+				the user to see, in real time, what their shape would look like if they release the mouse button.
+	Singleton:
+	Composite:
+	Factory (and added Shape inheritance): Added a Factory to create shapes. This, along with the creating a Shape 
+				class that classes like Circle, Rectangle, and Squiggle inherit from, make it easier to work with 
+				the model, as all the shapes can be in a single list (See Command for why this is good). Furthermore,
+				representing Squiggle as a class, instead of just drawing it out of a list of Points in PaintPanel makes 
+				the code better for two reasons:  
+				1) Squiggle is now a shape just like Circle or rectangle, so it can be in the same ArrayList in the model,
+					and it can be drawn the same way (by calling its draw() method)
+				2) The way squiggle is being drawn in the starter code is not correct, as it connects squiggles to each other 
+					with straight lines. This is because there are no squiggle objects; it just connects Points with lines 
+					without establishing when a squiggle starts or ends. This is fixed by having squiggle as an object.
+				Finally, this removes the need for if statements in each MouseEvent method, as all the shapes are built
+				in the factory using only the start and end points from a mouse drag (for feedback User Stories, it also builds
+				shapes with all the points from a mouse drag, but those shapes are only temporary, to show the user what their
+				shape would look like if they were to release the mouse).
+	Builder:
+	Observer/Observable: PaintPanel observes model. When a shape is added to the model,the model notifies observers,
+			  which calls repaint.
+	... (any others you find useful) ...
+
+OTHER ARCHITECTURE DISCUSSIONS

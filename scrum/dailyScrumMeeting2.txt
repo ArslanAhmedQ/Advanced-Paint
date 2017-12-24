@@ -1,0 +1,92 @@
+# Fill in, commit and push each day.
+
+# Group Member: Arslan Qamar
+
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday : Nothing 
+	Today     : Sprint planned, Git issues solved.
+	Obstacles : Working with Git merge. 
+
+Nov 5, 2016
+	Yesterday : Sprint Planned, Duties were assigned and tried to understand the assignment 
+	Today     : Worked on Bug no 5 which is solving Squiggles. Now, each drag of the mouse is a separate squiggle.
+	            Basically, the issue of the representation of the squiggles is fixed.		  
+	Obstacles : understanding MouseEvents such as MouseExited and creating references
+
+Nov 6, 2016
+	Yesterday : Worked on Bug no 5 which is solving Squiggles. Now, each drag of the mouse is a separate squiggle.
+	            Basically, the issue of the representation of the squiggles is fixed. 
+	Today     : Now, I can add rectangle to the canvas with the real time update, basically when 
+	            the user is drawing it, the user can see where it has been drawn. 
+	Obstacles : The problem is that when rectangle is been drawn it, starts from origin always.
+	            Instead, of one corner of a rectangle being drag, and release to 
+		        specify two corners of a rectangle to be drawn in the current style.
+	
+Nov 7, 2016
+	Yesterday : Now, I can add rectangle to the canvas with the real time update, basically when 
+	            the user is drawing it, the user can see where it has been drawn. 
+	Today     : Implementing so the rectangle is been drawn correctly which start from mouse click and where 
+				the click is released. Begin implementing the Square class which extends from rectangle class.
+	Obstacles : 
+	
+Nov 8, 2016
+	Yesterday : Implementing so the rectangle is been drawn correctly which start from mouse click and where 
+		        the click is released. Begin implementing the Square class which extends from shape class
+	Today     : Worked on Square class and fixed so it is drawn in all 4 directions and in a perfect way. 
+	Obstacles : The square has all 4 sides equally in magnitude, if the square is flip over to other direction, it was moving up or 
+				down so it was fixed using 2 cases. If yintial is less than yfinal then y becomes yintial. If yfinal is less than 
+                yintial then we do Math.min(y0, y0 - Math.abs(xf-x0)) since yfinal point has been dislocated to get it we 
+                subtract the delta x from yintial.  
+	
+Nov 9, 2016 
+	Yesterday : Worked on Square class and fixed so it is drawn in all 4 directions and in a perfect way. 
+	Today     : Finished the comments for Point, Square, Rectangle and PaintModel classes
+	            begin implementing the better design for user interface. Implemented exit in menu bar
+	Obstacles :
+	
+Nov 10, 2016
+	Yesterday : finished Sprint 1
+	Today     : Waiting for Assignment 2 Part 2 
+	Obstacles :
+	
+Nov 11, 2016
+	Yesterday : Nothing
+	Today     : resolve bugs 2.5 and 2.6 as a group
+	Obstacles :
+	
+Nov 12, 2016
+	Yesterday : resolved bugs 2.5 and 2.6 as a group
+	Today     : planning on the other user stories 2.1, 2.3, 2.9, 2.12
+	Obstacles : Had a problem how to do the oval shape without using radius, so used length and width 
+
+Nov 13, 2016
+	Yesterday : planning on the other user stories 2.1, 2.3, 2.9, 2.12
+	Today     : finished the 2.12 dotted squiggle and 2.3 oval on User stories. Now, beginning user story 2.9
+	Obstacles : has some problem with dotted squiggle but after some time figure it out. 
+	
+Nov 14, 2016
+	Yesterday : finished the 2.12 dotted squiggle and 2.3 oval on User stories. Now, beginning user story 2.9
+	Today     : Finished User Story 2.9 which was to show color indicator
+	Obstacles : first implemented with jButton, since color indicator button was never pressed so it should be a 
+	            label with its opaque property equals to true 
+	 
+Nov 15, 2016
+	Yesterday : Finished User Story 2.9 which was to show color indicator
+	Today     : Fixed the color indicator so it works with JLabel instead of JButton
+	Obstacles : 	
+	
+Nov 16, 2016
+	Yesterday : Fixed the color indicator so it works with JLabel instead of JButton
+	Today     : Finished up the userstory 2.14, Worked on comments   
+	Obstacles : problem deciding which layout to choose, had conflict with border layout so used grid layout within the 
+	            grid layout 

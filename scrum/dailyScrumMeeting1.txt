@@ -1,0 +1,73 @@
+# Fill in, commit and push each day.
+# Group Member: Juan Castaneda
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday :Nothing
+	Today     : Planned Sprint, sorted out git issues.
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday : fixed git issues
+	Today     : Implement factory design pattern in PaintPanel
+	Obstacles : Unsure if squiggle and/or point should be shapes
+
+Nov 6, 2016
+	Yesterday : Implemented Factory design and expanded on Shape inheritance which was implemented by another member
+	Today     : Fix some issues with Bugs 3 and 5, and user story 2 that another member had implemented, finalize the architechture of the program
+	Obstacles : getting some group members to understand how to use the architechture
+	
+Nov 7, 2016
+	Yesterday :Fixed circle feedback and some architecture design problems
+	Today     : Improve architecture by having shapes draw themselves. Add and complete user story for polyline.
+	Obstacles :
+	
+Nov 8, 2016
+	Yesterday : Implemented Shapes draw themselves, helped others with issues they were having
+	Today     : Finish Polyline and eraser user stories
+	Obstacles : Git issues
+	
+Nov 9, 2016
+	Yesterday : Spent hours resolving multiple git issues, completed a buggy version of polyline
+	Today     : Complete polyline and documentation for all classes. Finalize Sprint 1.
+	Obstacles :
+	
+Nov 10, 2016
+	Yesterday : Completed polyline and documentation; finished Sprint 1
+	Today     : Wait for ASsignment Part 2 to be posted
+	Obstacles :
+	
+Nov 11, 2016
+	Yesterday : N/A
+	Today     : resolve bugs 2.5 and 2.6
+	Obstacles :
+	
+Nov 12, 2016
+	Yesterday : resolved bugs 2.5 and 2.6
+	Today     : Resolve the rest of the bugs (2.1, 2.2, 2.3, 2.4) as a team, plan and begin working on new User Stories
+	Obstacles :
+Nov 13, 2016
+	Yesterday : resolved all bugs except for 2.1 and added 11 user stories and divided them amongst team
+	Today     : work on User stories (fix square, add line pattern and polygon)
+	Obstacles :
+Nov 14, 2016
+	Yesterday : fixed square, added line pattern, worked on polygon
+	Today     : complete polygon
+	Obstacles : g2d.drawPolygon draws the closed polygon every time, so can't use it until the polygon is completed
+Nov 15, 2016
+	Yesterday : completed polygon (with a few very minor bugs)
+	Today     : fix bugs in polygon, add polygon icon, work on draw symmetry
+	Obstacles : too damn tired
+Nov 16, 2016
+	Yesterday : fixed bugs in polygon, added polygon icon, completed symmerty functionality, but did not implement it
+				in the program
+	Today     : make buttons for symmetry options, fully implement symmetry. Fix bugs in all classes and add comments.
+	Obstacles : too damn tireder

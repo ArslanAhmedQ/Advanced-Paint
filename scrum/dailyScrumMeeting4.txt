@@ -1,0 +1,98 @@
+# Fill in, commit and push each day.
+# Group Member: Sina Rafiei
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday :Nothing
+	Today     : Planned Sprint
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday :planned sprint
+	Today     :Worked on Bug 3 and Bug 4 and implemented the shape super class
+				-created the drawStrategy and drawCircle
+				-created squiggle class
+	Obstacles :-choosing the right design pattern to make the code simpler 
+			   -implementing the design patterns in the correct position
+
+Nov 6, 2016
+	Yesterday :Worked on Bug 3 and Bug 4 and implemented the shape super class
+				-created the drawStrategy and drawCircle
+				-created squiggle class
+	Today     :circle feedback,implemented the squiggle shape class
+				-shape attribute
+				-simple design panel
+	Obstacles :
+	
+Nov 7, 2016
+	Yesterday :circle feedback,implemented the squiggle shape class
+				-shape attribute
+				-simple design panel
+	Today     :userStory 7 & 8
+	Obstacles :reenabiling the undo and redo buttons were difficult
+	
+Nov 8, 2016
+	Yesterday :userStory 7 & 8
+	Today     :Bug9,Bug10,UserStory 15
+	Obstacles :
+	
+Nov 9, 2016
+	Yesterday :Bug9,Bug10,UserStory 15
+	Today     :Commenting and checking the program
+	Obstacles :
+
+Nov 10, 2016
+	Yesterday :Commenting and checking the program
+	Today     :nothing
+	Obstacles :
+
+Nov 11, 2016
+	Yesterday :nothing
+	Today     :planning and distribution of user stories
+	Obstacles :
+
+Nov 12, 2016
+	Yesterday :planning and distribution of user stories
+	Today     :planned how to do my userstories, Started Bug2.4
+	Obstacles :
+
+Nov 13, 2016
+	Yesterday :Started Bug2.4
+	Today     :finished Bug2.4 and tried to do paint bucket
+	Obstacles :did not manage to understand a theoritical way of doing it
+	
+Nov 14, 2016
+	Yesterday :finished Bug2.4 and tried to do paint bucket
+	Today     :Started at 2.11-added the shortcut for most of the menu menuitems
+	-added the undo and redo to menubar as a menu
+	Obstacles :-could not add the shortcut key to Jmenu
+	-i tried to make the undo and redo JmenuItem. but when i tried to add key shortcut
+	, it showed the key shortcut in jmenubar
+	
+Nov 15, 2016
+	Yesterday :started at 2.11-added the shortcut for most of the menu menuitems
+	-added the undo and redo to menubar as a menu
+	Today     :Finished 2.11 and started 2.13-implemented selectedarea and its manipulator so that
+	the user knows which area is being copied
+	Obstacles :-made the undo and redo appear under the menu so that shortcut keys can be added
+	-
+	
+Nov 16, 2016
+	Yesterday :Finished 2.11 and started 2.13-implemented selectedarea and its manipulator so that
+	the user knows which area is being copied
+	Today     :Continued to work on UserStory 2.13 but i did not manage to finish it 
+	because of obstacles
+	Obstacles :-tries to do the copy and paste with the set clip and get clip
+	however the functionality of clip was not useful
+	-tried to use buffered image so that every time the user clicks copy, it makes the image
+	out of the jpanel. The problem was that it would draw an empty rectangle whenever pressed
+	paste
+	-tried to use copyArea however adding the mouselistener for the paste was difficult

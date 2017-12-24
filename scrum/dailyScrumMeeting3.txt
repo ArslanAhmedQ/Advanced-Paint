@@ -1,0 +1,78 @@
+# Fill in, commit and push each day.
+# Group Member: Marko Spajic
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday :Nothing
+	Today     :Planned Sprint
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday :Solved git issues
+	Today     :Solving issues involving circle
+	Obstacles :Changing the architecture
+
+Nov 6, 2016
+	Yesterday :Solved issues involving circle
+	Today     :Icons instead of text for drawing mode selection
+	Obstacles :
+	
+Nov 7, 2016
+	Yesterday :Added Images to buttons
+	Today     :Removing text from buttons
+	Obstacles :ActionListener in ShapeChooserPanel
+	
+Nov 8, 2016
+	Yesterday :Added colors, fill, and thickness slider.
+	Today     :Add JColorSelector and fixed issue shape icon on Ubuntu.
+	Obstacles :
+	
+Nov 9, 2016
+	Yesterday :Added JColor Selector and fixed issue of icon
+	Today     :General improvements
+	Obstacles :
+
+Nov 10, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 11, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 12, 2016
+	Yesterday :Planning and bug 2.5 and 2.6
+	Today     :Bug2.4 
+	Obstacles :
+
+Nov 13, 2016
+	Yesterday :Working on implementing bug2.4
+	Today     :Making CCP2 into its own frame
+	Obstacles :
+	
+Nov 14, 2016
+	Yesterday :Separating CCP2 as its own frame
+	Today     :Completing set resolution US2.7
+	Obstacles :
+	
+Nov 15, 2016
+	Yesterday :Completing User Story 2.7 set resolution
+	Today     :US2.10 and changing US2.7 so that it's not annoying
+				as Bug2.9
+	Obstacles :Issue with menuBar that initiates buttons several times
+	
+Nov 15, 2016
+	Yesterday :US2.10 and changing US2.7 so that it's not annoying
+				as Bug2.9
+	Today     : Finishing touches
+	Obstacles :Issue with paintPanel
