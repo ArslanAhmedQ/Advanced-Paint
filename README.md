@@ -7,11 +7,13 @@ was also made possoble. Different java libraries and tools were used to implemen
 make the progrsm as interesting as possible with advanced features including the basic features. 
 
 High Level Architecture:
+
 	MVC
 	To keep the code simple, a partial MVC was implemented.
 	Model
 	The Model captures enough information to re-draw the sketch of
 	the user.
+	
 	View+Controller
 	There is a View class as well as a few, what we call, view components.
 	The View class capturing the JFrame as well
@@ -28,3 +30,4 @@ High Level Architecture:
 	as appropriate. This means that each view component can speak to the
 	other view components. An example of this is when the ShapeChooserPanel
 	buttons are clicked, resulting in a mode change in the PaintPanel.
+	
