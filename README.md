@@ -1,4 +1,4 @@
-# Advanced-Paint
+# Advanced-Paint (Work in progress so paint can be save and open)
 
 The program uses partial MVC as a structure. Along with that
 different design pattern had been used such as factory, strategy and others to implement the paint. Different shapes were designed and implemented. Shapes feedback (one can see as it draws)
