@@ -1,6 +1,6 @@
 # Advanced-Paint
 
-The program uses partial MVC (Model, View and Controller) as a structure. The different design patterns have been used such as Factory, Strategy and others to implement the paint. The common shapes were designed and implemented. Shapes feedback (user can see as it draws) was also made possible. Different java libraries and tools were used to implement features such as whole Colour Panel, Resolution, Save/Open, Symmetry and Thickness for most of the shapes. The program advanced paint is developed as a team. The instructor provided with a skeleton of basic code, notably the scribble package which is used by the paint package.
+The program uses partial MVC (Model, View and Controller) as a structure. The different design patterns have been used such as Factory, Strategy and others to implement the paint. The common shapes were designed and implemented. The shapes feedback (user can see as it draws) was also made possible. Many Java Libraries and Tools were used to implement features such as Whole Colour Panel, Resolution, Save/Open, Symmetry and Thickness for most of the shapes. The program advanced paint is developed as a team. The instructor provided with a skeleton of basic code, notably the scribble package which is used by the paint package.
 
 ## High Level Architecture:
 
